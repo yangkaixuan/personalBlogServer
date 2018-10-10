@@ -1,9 +1,9 @@
-#个人博客网站
+# 个人博客网站
 ##简介
 ######1.服务器用的是express框架，express框架为基于Node.js平台的极简web开发框架。详情请访问http://www.expressjs.com.cn/
 ######2.服务器管理模块用的是forever网站，它是一个简单的命令式nodejs的守护进程，能够启动，停止，重启App应用。GitHub地址为https://github.com/foreverjs/forever
 
-##调试使用：
+## 调试使用：
 ```
 npm i  安装所有依赖
 ```
@@ -18,7 +18,7 @@ npm start 运行启动项目
 npm stop 停止运行项目
 ```
 	  
-##forever 常用命令
+## forever 常用命令
 
 	// 1. 简单的启动
 	forever start app.js
@@ -78,5 +78,5 @@ npm stop 停止运行项目
 	复制代码 代码如下:
 	SHELL=/bin/sh
 	PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-##托管静态文件
+## 托管静态文件
 	在public目录下可托管文件例如在 public 文件夹下加入icon.png 文件 通过 www.yangkaiuxan.com/icon.png 就可访问
